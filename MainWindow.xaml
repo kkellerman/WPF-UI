@@ -1,0 +1,10 @@
+﻿<Window x:Class="WPF_UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Appium WPF Automation" Height="200" Width="400">
+    <Grid>
+        <Button Name="btnStartAutomation" Content="Start Notepad++ Automation"
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+                Width="200" Height="50" Click="btnStartAutomation_Click"/>
+    </Grid>
+</Window>
